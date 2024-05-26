@@ -1,0 +1,52 @@
+{
+   "size":{
+      "width":2500,
+      "height":1124
+   },
+   "selected": true,
+   "name": "Default Menu",
+   "chatBarText": "メニュー画面を開く",
+   "areas": [
+      {
+        "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1250,
+            "height": 281
+        },
+        "action": {
+            "type": "richmenuswitch",
+            "richMenuAliasId": "richmenu-alias-a",
+            "data": "richmenu-changed-to-a"
+        }
+      },
+      {
+        "bounds": {
+            "x": 0,
+            "y": 281,
+            "width": 1250,
+            "height": 843
+        },
+        "action": {
+            "type": "datetimepicker",
+            "mode": "time",
+            "data": "storeId=12345",
+            "initial": "12:00",
+            "max": "23:59",
+            "min": "00:00"
+        }
+      },
+      {
+        "bounds": {
+            "x": 1250,
+            "y": 281,
+            "width": 1250,
+            "height": 843
+        },
+        "action": {
+            "type": "uri",
+            "uri": "https://ct.ritsumei.ac.jp/ct/home"
+        }
+      }
+   ]
+}
