@@ -1,0 +1,60 @@
+{
+   "size":{
+      "width":2500,
+      "height":1124
+   },
+   "selected": true,
+   "name": "Default Menu",
+   "chatBarText": "メニュー画面を開く",
+   "areas": [
+     {
+        "bounds": {
+            "x": 1250,
+            "y": 0,
+            "width": 1250,
+            "height": 281
+        },
+        "action": {
+            "type": "richmenuswitch",
+            "richMenuAliasId": "richmenu-alias-b",
+            "data": "richmenu-changed-to-b"
+        }
+     },
+      {
+         "bounds": {
+            "x": 0,
+            "y": 281,
+            "width": 832,
+            "height": 843
+         },
+         "action": {
+            "type": "message",
+            "text": "通知"
+         }
+      },
+      {
+         "bounds": {
+            "x": 832,
+            "y": 281,
+            "width": 832,
+            "height": 843
+         },
+         "action": {
+            "type": "message",
+            "text": "警戒"
+         }
+      },
+      {
+         "bounds": {
+            "x": 1664,
+            "y": 281,
+            "width": 832,
+            "height": 843
+         },
+         "action": {
+            "type":"message",
+            "text":"グラフ"
+         }
+      }
+   ]
+}
